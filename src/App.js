@@ -21,8 +21,8 @@ function App() {
 axios.get('https://tarp-project-ee72f-default-rtdb.firebaseio.com/coordinate.json').then(responses => {
   let event = responses.data;
   setEventData(event);
-  console.log(eventData);
-}).then(sleeper(1000))
+  console.log(event);
+})
 
   }, []);
 
@@ -31,8 +31,8 @@ axios.get('https://tarp-project-ee72f-default-rtdb.firebaseio.com/coordinate.jso
   return (
     <div className="App">
       <Header />
-      <Map eventData={eventData}/>
-      <Column eventData={eventData}/>
+      {/* <Map eventData={eventData}/>
+      <Column eventData={eventData}/> */}
     </div>
   );
 }
