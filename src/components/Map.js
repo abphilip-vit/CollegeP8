@@ -8,7 +8,7 @@ const Map = ({eventData, center, zoom}) => {
     const [locationInfo, setLocationInfo] = useState(null)
 
     const markers = eventData.map( ev => {
-            return <LocationMarker lat={ev[0]} lng={ev[1]}/>
+            return <LocationMarker lat={ev[0]} lng={ev[1]} onClick={() => setLocationInfo({lat: ev[0], lng: ev[1]})}/>
     })
     
     return (
