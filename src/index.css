@@ -2,6 +2,8 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
+  background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+  background-attachment: fixed;
 }
 
 .map {
@@ -16,8 +18,8 @@ body {
 
 .location-info {
   position: absolute;
-  top: 80px;
-  right: 50px;
+  top: 400px;
+  right: 950px;
   width: 400px;
   min-height: 200px;
   padding: 20px;
@@ -35,7 +37,7 @@ body {
   right: 0;
   left: 0;
   z-index: 100;
-  background-color: aqua;
+  background-color: #303030;
 }
 
 .header h1{
@@ -63,5 +65,5 @@ body {
   right: 0;
   left: 1;
   margin-right: 20;
-  background-color: aqua;
+  background-color: #303030;
 }

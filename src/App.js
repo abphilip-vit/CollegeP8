@@ -7,7 +7,7 @@ import firebase from './Firebase';
 
 function App() {
 
-  const [eventData, setEventData] = useState([]);
+  //const [eventData, setEventData] = useState([]);
   const [todoList, setTodoList] = useState([]);
 
   useEffect(() => {
