@@ -32,7 +32,7 @@ function App() {
         const todos = snapshot.val();
         console.log(todos);
         const todoList = [];
-        for(let i = 1; i < todos.length; i++){
+        for(let i = 0; i < todos.length; i++){
         const cd = todos[i].split(",");
         cd[0] = parseFloat(cd[0]);
         cd[1] = parseFloat(cd[1]);
