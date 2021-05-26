@@ -2,13 +2,15 @@
 
 https://drive.google.com/drive/folders/1fO_ANqt2D-S-S2vhJx7rD9w9kOjmWTjO?usp=sharing
 
+Person re-identification surveillance system aims to predict whether two images from different cameras belong to the identical person. It may be a fundamental task in video surveillance and smart retail, providing support for pedestrian retrieval and cross-camera tracking with large-scale. In our project, we will implement Person re-id on MARKET 1501 and MS COCO dataset and the algorithms will focus on RESNET-50 and YOLO.
 
+Our detection algorithm will takes the input as a video and offers the output as a picture with a bounded box on the person and track the movement of the person over various checkpoints which the Admin can visualize in an interactive web platform. By considering video obtained from surveillance camera as input not only make our model very accurate and also more realistic for actual implementation.
+
+<br />
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -74,4 +76,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<br />
+
+# Authors
+
+#### [``Sanjay Babu``](https://github.com/sanjaybabu2210) - 18BIS0001
+#### [``Allen Ben Philipose``](https://abphilip.me/) - 18BIS0043
+#### [``Sanjay Nanda``](https://github.com/sanjay-nanda) - 18BIS0056
+#### [``Zil Chaudhary``](https://github.com/ZilChaudhary) - 18BSW0025
 
