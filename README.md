@@ -11,7 +11,7 @@ Our detection algorithm will takes the input as a video and offers the output as
 # Authors
 
 #### [``Sanjay Babu``](https://github.com/sanjaybabu2210) - 18BIS0001
-#### [``Allen Ben Philipose``](https://abphilip.me/) - 18BIS0043
+#### [``Allen Ben Philipose``](https://allen.iykk.in/) - 18BIS0043
 #### [``Sanjay Nanda``](https://github.com/sanjay-nanda) - 18BIS0056
 #### [``Zil Chaudhary``](https://github.com/ZilChaudhary) - 18BSW0025
 #### [``Munagala Srikanta``](https://github.com/lushee) - 18BSW0022
